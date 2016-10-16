@@ -7,6 +7,7 @@ Vagrant.configure("2") do |config|
 
   # Use an inline shell provisioner for basic setup 
   config.vm.provision 'shell', inline: shell, privileged: false
+end
 
 def shell
   <<-eos
