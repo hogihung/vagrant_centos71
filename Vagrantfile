@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "bento/centos-7.1"
+  config.vm.box = "centos/7"
   config.vm.hostname = "centos71" 
 
   # Use an inline shell provisioner for basic setup 
